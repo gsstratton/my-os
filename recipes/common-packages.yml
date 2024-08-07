@@ -1,1 +1,21 @@
-
+type: rpm-ostree
+   install:
+      - rclone
+      - btop
+      - fastfetch
+      - cpufetch
+      # @virtualization
+      - virt-install
+      - libvirt-daemon-config-network
+      - libvirt-daemon-kvm
+      - qemu-kvm
+      - virt-manager
+      - virt-viewer
+      - guestfs-tools
+      - python3-libguestfs
+      - virt-top
+   remove:
+      # example: removing firefox (in favor of the flatpak)
+      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      - firefox
+      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
