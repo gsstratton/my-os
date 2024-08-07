@@ -1,0 +1,9 @@
+type: systemd
+system:
+  #disabled:
+    #- flatpak-system-update.timer
+user:
+  enabled:
+    - onedrive.service
+  #disabled:
+    #- flatpak-user-update.timer
