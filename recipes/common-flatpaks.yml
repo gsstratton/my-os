@@ -1,1 +1,25 @@
-
+type: default-flatpaks
+system:
+    install:
+        - org.mozilla.firefox
+        - com.microsoft.Edge
+        - io.github.ungoogled_software.ungoogled_chromium
+        - org.mozilla.Thunderbird
+        - org.libreoffice.LibreOffice
+        - org.kde.gwenview
+        - org.kde.okular
+        - org.kde.skanpage
+        - org.kde.neochat
+        - org.kde.yakuake
+        - org.kde.haruna
+        - org.qbittorrent.qBittorrent
+        - org.strawberrymusicplayer.strawberry
+        - org.musicbrainz.Picard
+        - io.freetubeapp.FreeTube
+        - com.discordapp.Discord
+        - org.signal.Signal
+        - com.ktechpit.whatsie
+        - io.github.unknownskl.greenlight
+        - io.github.sigmasd.stimulator
+    remove:
+      # - org.gnome.eog
