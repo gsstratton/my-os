@@ -19,5 +19,3 @@ install:
 remove:
    - firefox
    - firefox-langpacks
-   - kf5-kirigami2
-   - kf5-knewstuff
