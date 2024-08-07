@@ -1,5 +1,7 @@
 type: rpm-ostree
 install:
+   - kf6-kirigami
+   - kf6-knewstuff
    - rclone
    - btop
    - fastfetch
