@@ -1,12 +1,12 @@
 type: systemd
 system:
   enabled:
-    libvirtd.service
-    docker.service
+    - libvirtd.service
+    - docker.service
+    - flatpak-system-update.timer
   #disabled:
-    #- flatpak-system-update.timer
 user:
   enabled:
     - onedrive.service
+    - flatpak-user-update.timer
   #disabled:
-    #- flatpak-user-update.timer
