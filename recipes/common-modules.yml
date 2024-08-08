@@ -1,5 +1,8 @@
 modules:
     - type: signing
+    - type: brew
+      nofile-limits: true
+      brew-analytics: false
    # - type: files
       #files:
       #- source: etc
