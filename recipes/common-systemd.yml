@@ -3,10 +3,8 @@ system:
   enabled:
     - libvirtd.service
     - docker.service
-    - flatpak-system-update.timer
   #disabled:
 user:
   enabled:
     - onedrive.service
-    - flatpak-user-update.timer
   #disabled:
