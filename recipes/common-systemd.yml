@@ -1,8 +1,6 @@
 type: systemd
 system:
-  enabled:
-    - libvirtd.service
-    - docker.service
+  #enabled:
   #disabled:
 user:
   enabled:
