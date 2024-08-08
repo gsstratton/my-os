@@ -1,5 +1,8 @@
 type: systemd
 system:
+  enabled:
+    libvirtd.service
+    docker.service
   #disabled:
     #- flatpak-system-update.timer
 user:
