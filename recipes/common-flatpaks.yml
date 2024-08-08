@@ -21,5 +21,6 @@ system:
         - com.ktechpit.whatsie
         - io.github.unknownskl.greenlight
         - io.github.sigmasd.stimulator
+        - org.kde.tokodon
     remove:
       # - org.gnome.eog
