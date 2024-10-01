@@ -3,7 +3,7 @@ system:
     install:
         - org.mozilla.firefox
         - com.microsoft.Edge
-        - io.github.ungoogled_software.ungoogled_chromium
+        #- io.github.ungoogled_software.ungoogled_chromium
         - org.mozilla.Thunderbird
         - org.libreoffice.LibreOffice
         - org.kde.gwenview
