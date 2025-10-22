@@ -3,7 +3,7 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: user
-        notify: yes
+        notify: true
         repo:
           title: Flathub (user)
         install:
@@ -26,7 +26,7 @@ modules:
           - org.signal.Signal
           - org.torproject.torbrowser-launcher
           - tv.plex.PlexDesktop
-      - notify: yes
+      - notify: true
         repo:
           title: Flathub (system)
         scope: system
