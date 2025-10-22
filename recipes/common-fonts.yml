@@ -4,7 +4,7 @@ modules:
       nerd-fonts:
         - FiraCode # don't add spaces or "Nerd Font" suffix
         - Hack
-        - Blex Mono
+        - IbMPlexMono
         - RobotoMono
       google-fonts:
         - IBM Plex Mono
