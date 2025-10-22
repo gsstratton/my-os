@@ -1,0 +1,19 @@
+modules:
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - FiraCode # don't add spaces or "Nerd Font" suffix
+        - Hack
+        - Blex Mono
+        - RobotoMono
+      google-fonts:
+        - IBM Plex Mono
+        - IBM Plex Sans
+        - IBM Plex Serif
+        - Inter
+        - Roboto
+#      url-fonts:
+#        - name: CustomFont
+#          url: https://example.com/my-font.otf
+#        - name: CompanyFonts
+#          url: https://company.com/fonts.tar.gz
