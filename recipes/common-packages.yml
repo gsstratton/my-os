@@ -2,9 +2,11 @@ modules:
   - type: dnf
     install:
       packages:
+        - f39-backgrounds-kde
         - ibm-plex-fonts-all
         - micro
         - mullvad-vpn
+        - rclone
         - rsms-inter-fonts
         - starship
         
