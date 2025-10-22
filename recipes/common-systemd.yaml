@@ -1,0 +1,12 @@
+module: 
+  type: systemd
+  system:
+    enabled:
+      - mullvad-daemon.service
+#    disabled:
+#      -
+#  user:
+#    enabled:
+#      - my-custom.service
+#    disabled:
+#      - flatpak-user-update.timer
