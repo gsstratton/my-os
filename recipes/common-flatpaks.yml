@@ -3,7 +3,7 @@ modules:
   - type: default-flatpaks
     configurations:
       - scope: user
-        notify: true
+        notify: false
         repo:
           title: Flathub (user)
         install:
@@ -15,7 +15,6 @@ modules:
           - io.freetubeapp.FreeTube
           - io.github.unknownskl.greenlight
           - net.mediaarea.MediaInfo
-          - org.gustavoperedo.FontDownloader
           - org.kde.kbreakout
           - org.kde.krita
           - org.kde.tokodon
@@ -26,7 +25,7 @@ modules:
           - org.signal.Signal
           - org.torproject.torbrowser-launcher
           - tv.plex.PlexDesktop
-      - notify: true
+      - notify: false
         repo:
           title: Flathub (system)
         scope: system
@@ -41,6 +40,7 @@ modules:
           - org.fedoraproject.MediaWriter
           - org.fkoehler.KTailctl
           - org.fooyin.fooyin
+          - org.gustavoperedo.FontDownloader
           - org.kde.gwenview
           - org.kde.haruna
           - org.kde.kcalc
@@ -50,3 +50,11 @@ modules:
           - org.kde.skanpage
           - org.libreoffice.LibreOffice
           - org.mozilla.firefox
+        remove:
+        remove:
+          - com.borgbase.Vorta
+          - io.github.pwr_solaar.solaar
+          - org.deskflow.deskflow
+          - org.gnome.DejaDup
+          - org.kde.kontact
+          - org.mozilla.Thunderbird
