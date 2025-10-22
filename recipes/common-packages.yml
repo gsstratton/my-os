@@ -2,10 +2,12 @@ modules:
   - type: dnf
     install:
       packages:
+        - ibm-plex-fonts-all
         - micro
-        - starship
         - mullvad-vpn
-#    remove:
-#      packages:
-#        - firefox
-#        - firefox-langpacks
+        - rsms-inter-fonts
+        - starship
+        
+    remove:
+      packages:
+        - NetworkManager-config-connectivity-fedora
