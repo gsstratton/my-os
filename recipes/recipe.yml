@@ -58,6 +58,7 @@ modules:
           - org.kde.skanpage
           - org.libreoffice.LibreOffice
           - org.mozilla.firefox
+      - notify: true # Send notification after install/uninstall is finished (true/false)
         scope: user # Also add Flathub user repo, but no user packages
         install:
           - com.bitwarden.desktop
