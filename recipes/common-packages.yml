@@ -1,1 +1,13 @@
-
+modules:
+  - type: dnf
+      copr:
+        - atim/starship
+    install:
+      packages:
+        - micro
+        - starship
+        - mullvad-vpn
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
