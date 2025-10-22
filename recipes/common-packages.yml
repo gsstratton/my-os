@@ -10,7 +10,6 @@ modules:
         - rclone
         - rsms-inter-fonts
         - starship
-        
     remove:
       packages:
         - NetworkManager-config-connectivity-fedora
