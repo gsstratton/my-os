@@ -1,7 +1,5 @@
 modules:
   - type: dnf
-    copr:
-      - atim/starship
     install:
       packages:
         - micro
