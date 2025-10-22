@@ -62,11 +62,9 @@ modules:
         scope: user # Also add Flathub user repo, but no user packages
         install:
           - com.bitwarden.desktop
-          - com.cakewallet.CakeWallet
           - com.discordapp.Discord
           - com.github.johnfactotum.Foliate
           - com.valvesoftware.Steam
-          - com.yubico.yubioath
           - de.haeckerfelix.Shortwave
           - io.freetubeapp.FreeTube
           - io.github.unknownskl.greenlight
