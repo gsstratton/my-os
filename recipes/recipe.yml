@@ -45,7 +45,7 @@ modules:
           - io.github.shiftey.Desktop
           - io.missioncenter.MissionCenter
           - io.podman_desktop.PodmanDesktop
-          - it.mijorus.gearleve
+          - it.mijorus.gearlever
           - org.fedoraproject.MediaWriter
           - org.fkoehler.KTailctl
           - org.fooyin.fooyin
