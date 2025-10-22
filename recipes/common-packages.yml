@@ -2,11 +2,11 @@ modules:
   - type: dnf
     install:
       packages:
+        - btop
         - f39-backgrounds-kde
-        - gh
-        - git
         - micro
         - mullvad-vpn
+        - nvim
         - rclone
         - rsms-inter-fonts
         - starship
