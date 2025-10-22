@@ -5,8 +5,9 @@ modules:
         - mullvad-daemon.service
 #    disabled:
 #        -
-    user:
-      enabled:
-        - onedrive.service
+
+#    user:
+#      enabled:
+#        -
 #      disabled:
 #        - flatpak-user-update.timer
