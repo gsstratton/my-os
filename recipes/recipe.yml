@@ -6,8 +6,8 @@ name: my-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/aurora-dx-nvidia-open
+image-version: stable # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -16,30 +16,69 @@ modules:
     files:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
-
   - type: dnf
     repos:
+      files:
+        - https://repository.mullvad.net/rpm/stable/mullvad.repo
       copr:
         - atim/starship
     install:
       packages:
         - micro
         - starship
+        - mullvad-vpn
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
         # "firefox" is the main package, "firefox-langpacks" is a dependency
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - com.github.tchx84.Flatseal
+          - com.ranfdev.DistroShelf
+          - io.github.flattool.Warehouse
+          - io.github.shiftey.Desktop
+          - io.missioncenter.MissionCenter
+          - io.podman_desktop.PodmanDesktop
+          - it.mijorus.gearleve
+          - org.fedoraproject.MediaWriter
+          - org.fkoehler.KTailctl
+          - org.fooyin.fooyin
+          - org.kde.gwenview
+          - org.kde.haruna
+          - org.kde.kcalc
+          - org.kde.kclock
+          - org.kde.kweather
+          - org.kde.okular
+          - org.kde.skanpage
+          - org.libreoffice.LibreOffice
           - org.mozilla.firefox
-          - org.gnome.Loupe
-      - scope: user # Also add Flathub user repo, but no user packages
-
+        scope: user # Also add Flathub user repo, but no user packages
+        install:
+          - com.bitwarden.desktop
+          - com.cakewallet.CakeWallet
+          - com.discordapp.Discord
+          - com.github.johnfactotum.Foliate
+          - com.valvesoftware.Steam
+          - com.yubico.yubioath
+          - de.haeckerfelix.Shortwave
+          - io.freetubeapp.FreeTube
+          - io.github.unknownskl.greenlight
+          - net.mediaarea.MediaInfo
+          - org.gustavoperedo.FontDownloader
+          - org.kde.kbreakout
+          - org.kde.krita
+          - org.kde.tokodon
+          - org.kde.yakuake
+          - org.musicbrainz.Picard
+          - org.qbittorrent.qBittorrent
+          - org.raspberrypi.rpi-imager
+          - org.signal.Signal
+          - org.torproject.torbrowser-launcher
+          - tv.plex.PlexDesktop
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
