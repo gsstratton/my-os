@@ -1,4 +1,3 @@
-# https://blue-build.org/how-to/multiple-files/
 modules:
   - type: default-flatpaks
     configurations:
@@ -50,7 +49,6 @@ modules:
           - org.kde.skanpage
           - org.libreoffice.LibreOffice
           - org.mozilla.firefox
-        remove:
         remove:
           - com.borgbase.Vorta
           - io.github.pwr_solaar.solaar
