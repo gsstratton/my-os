@@ -3,3 +3,5 @@ modules:
     repos:
       files:
         - https://repository.mullvad.net/rpm/stable/mullvad.repo
+      copr:
+        - atim/starship
