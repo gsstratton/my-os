@@ -1,4 +1,4 @@
-module: 
+modules: 
   type: systemd
   system:
     enabled:
