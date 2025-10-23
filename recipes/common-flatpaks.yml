@@ -14,6 +14,7 @@ modules:
           - io.freetubeapp.FreeTube
           - io.github.unknownskl.greenlight
           - net.mediaarea.MediaInfo
+          - org.gnome.Evolution
           - org.kde.kbreakout
           - org.kde.krita
           - org.kde.tokodon
