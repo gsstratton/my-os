@@ -31,6 +31,7 @@ modules:
         scope: system
         install:
           - com.github.tchx84.Flatseal
+          - com.google.Chrome
           - com.ranfdev.DistroShelf
           - io.github.flattool.Warehouse
           - io.github.shiftey.Desktop
