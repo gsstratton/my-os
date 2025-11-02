@@ -2,6 +2,7 @@ modules:
   - type: dnf
     install:
       packages:
+        - ansible-core
         - btop
         - f39-backgrounds-kde
         - micro
