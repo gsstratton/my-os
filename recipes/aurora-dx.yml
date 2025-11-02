@@ -14,7 +14,7 @@ image-version: stable # latest is also supported if you want new updates ASAP
 modules:
   - from-file: common-repos.yml
   - from-file: common-packages.yml
-  - from-file: common-flatpaks.yml
+#  - from-file: common-flatpaks.yml
   - from-file: common-fonts.yml
   - from-file: common-systemd.yml
   - from-file: common-extra-modules.yml
