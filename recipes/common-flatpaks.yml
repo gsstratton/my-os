@@ -6,51 +6,51 @@ modules:
         repo:
           title: Flathub (user)
         install:
-          - com.bitwarden.desktop
-          - com.discordapp.Discord
-          - com.github.johnfactotum.Foliate
-          - com.valvesoftware.Steam
-          - de.haeckerfelix.Shortwave
-          - io.freetubeapp.FreeTube
-          - io.github.unknownskl.greenlight
-          - net.mediaarea.MediaInfo
-          - org.gnome.Evolution
-          - org.kde.kbreakout
-          - org.kde.krita
-          - org.kde.tokodon
-          - org.kde.yakuake
-          - org.musicbrainz.Picard
-          - org.qbittorrent.qBittorrent
-          - org.raspberrypi.rpi-imager
-          - org.signal.Signal
-          - org.torproject.torbrowser-launcher
-          - tv.plex.PlexDesktop
+#          - com.bitwarden.desktop
+#          - com.discordapp.Discord
+#          - com.github.johnfactotum.Foliate
+#          - com.valvesoftware.Steam
+#          - de.haeckerfelix.Shortwave
+#          - io.freetubeapp.FreeTube
+#          - io.github.unknownskl.greenlight
+#          - net.mediaarea.MediaInfo
+#          - org.gnome.Evolution
+#          - org.kde.kbreakout
+#          - org.kde.krita
+#          - org.kde.tokodon
+#          - org.kde.yakuake
+#          - org.musicbrainz.Picard
+#          - org.qbittorrent.qBittorrent
+#          - org.raspberrypi.rpi-imager
+#          - org.signal.Signal
+#          - org.torproject.torbrowser-launcher
+#          - tv.plex.PlexDesktop
       - notify: false
         repo:
           title: Flathub (system)
         scope: system
         install:
-          - com.github.tchx84.Flatseal
-          - com.google.Chrome
-          - com.ranfdev.DistroShelf
-          - io.github.flattool.Warehouse
-          - io.github.shiftey.Desktop
-          - io.missioncenter.MissionCenter
-          - io.podman_desktop.PodmanDesktop
-          - it.mijorus.gearlever
-          - org.fedoraproject.MediaWriter
-          - org.fkoehler.KTailctl
-          - org.fooyin.fooyin
-          - org.gustavoperedo.FontDownloader
-          - org.kde.gwenview
-          - org.kde.haruna
-          - org.kde.kcalc
-          - org.kde.kclock
-          - org.kde.kweather
-          - org.kde.okular
-          - org.kde.skanpage
-          - org.libreoffice.LibreOffice
-          - org.mozilla.firefox
+#          - com.github.tchx84.Flatseal
+#          - com.google.Chrome
+#          - com.ranfdev.DistroShelf
+#          - io.github.flattool.Warehouse
+#          - io.github.shiftey.Desktop
+#          - io.missioncenter.MissionCenter
+#          - io.podman_desktop.PodmanDesktop
+#          - it.mijorus.gearlever
+#          - org.fedoraproject.MediaWriter
+#          - org.fkoehler.KTailctl
+#          - org.fooyin.fooyin
+#          - org.gustavoperedo.FontDownloader
+#          - org.kde.gwenview
+#          - org.kde.haruna
+#          - org.kde.kcalc
+#          - org.kde.kclock
+#          - org.kde.kweather
+#          - org.kde.okular
+#          - org.kde.skanpage
+#          - org.libreoffice.LibreOffice
+#          - org.mozilla.firefox
         remove:
           - com.borgbase.Vorta
           - io.github.pwr_solaar.solaar
