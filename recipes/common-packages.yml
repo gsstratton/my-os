@@ -10,6 +10,7 @@ modules:
         - rclone
         - rsms-inter-fonts
         - starship
+        - vagrant
     remove:
       packages:
         - NetworkManager-config-connectivity-fedora
