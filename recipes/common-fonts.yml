@@ -1,5 +1,3 @@
----
-# yaml-language-server: $schema=https://schema.blue-build.org/modules/fonts-latest.json
 modules:
   - type: fonts
     fonts:
