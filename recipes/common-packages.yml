@@ -12,6 +12,7 @@ modules:
         - rsms-inter-fonts
         - starship
         - vagrant
+        - virtualbox
     remove:
       packages:
         - NetworkManager-config-connectivity-fedora
