@@ -2,6 +2,7 @@ modules:
   - type: dnf
     install:
       packages:
+        - akmod-VirtualBox
         - ansible-core
         - btop
         - f39-backgrounds-kde
