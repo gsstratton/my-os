@@ -21,8 +21,8 @@ modules:
   - type: dnf
     group-install:
       with-optional: true
-        packages:
-          - virtualization
+      packages:
+        - virtualization
   - from-file: common-flatpaks.yml
   - from-file: common-services.yml
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
