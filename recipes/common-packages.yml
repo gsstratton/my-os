@@ -1,0 +1,26 @@
+modules:
+  - type: dnf
+    install:
+      packages:
+        - atuin
+        - btop
+        - chezmoi
+        - distrobox
+        - f39-backgrounds-kde
+        - ibm-plex-fonts-all
+        - gh
+        - git
+        - mullvad-vpn
+        - neovim
+        - pcsc-lite
+        - pcsc-lite-ccid
+        - pcsc-perl
+        - pcsc-tools
+        - rclone
+        - syncthing
+        - rsms-inter-fonts
+    remove:
+      packages:
+        - NetworkManager-config-connectivity-fedora
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)

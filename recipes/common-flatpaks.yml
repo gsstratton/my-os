@@ -1,0 +1,10 @@
+modules:
+  - type: default-flatpaks
+    configurations:
+      - scope: user
+        repo:
+          title: Flathub (user)
+        install:
+            - com.vivaldi.Vivaldi
+        remove:
+            - org.mozilla.firefox

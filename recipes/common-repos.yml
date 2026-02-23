@@ -1,0 +1,9 @@
+modules:
+  - type: dnf
+    repos:
+      nonfree: rpmfusion
+      files:
+        - https://repository.mullvad.net/rpm/stable/mullvad.repo
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+      copr:
+        - atim/starship
