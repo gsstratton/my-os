@@ -19,9 +19,10 @@ modules:
   - from-file: common-repos.yml
   - from-file: common-packages.yml
   - type: dnf
-    install:
-      packages:
-        - @virtualization
+    group-install:
+      with-optional: true
+        packages:
+          - virtualization
   - from-file: common-flatpaks.yml
   - from-file: common-services.yml
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
