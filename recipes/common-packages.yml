@@ -19,6 +19,7 @@ modules:
         - rclone
         - syncthing
         - rsms-inter-fonts
+        - vivaldi-stable
     remove:
       packages:
         - NetworkManager-config-connectivity-fedora
